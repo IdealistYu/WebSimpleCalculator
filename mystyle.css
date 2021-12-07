@@ -1,0 +1,92 @@
+.calcbackground{
+    background-color: #cccccc;
+}
+.calcboder{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 40vmin;
+    height: 63vmin;
+    background-color: #eeeeee;
+    border-radius: .5vmin;
+    border: solid;
+    border-width: .5vmin;
+    border-top-color: rgba(255, 255, 255, .4);
+    border-left-color: rgba(255, 255, 255, .4);
+    border-bottom-color: rgba(0, 0, 0, .4);
+    border-right-color: rgba(0, 0, 0, .4);
+    font-family: "Microsoft Yahei";
+    box-shadow: .3em .3em 1em .06em black;
+}
+.left{
+    color: #dddddd;
+    background-color: #f30d0d;
+}
+.right{
+    float: right;
+    margin-right: 1.5vmin;
+    color: #dddddd;
+    background-color: #f98d13;
+}
+.inputboder{  
+    
+    padding: 2vmin;
+    padding-bottom: 3vmin;
+}
+.output{
+    margin: auto;
+    padding-left: 5vmin;
+    width: 36vmin;
+    height: 10vmin;
+    background-color:#555555;
+    padding: 0; 
+    font-size: 6vmin;
+    color: #00ff00;
+    border-width: .5vmin;
+    border-radius: .5vmin;
+}
+.row{
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+    width:36vmin;
+    height: 9vmin;
+}
+span{
+        width: 7vmin;
+        height: 7vmin; 
+        margin: .7vmin;
+        font-size: 3.5vmin;
+        color: #555555;
+        background-color: #e2e2e2;
+        box-shadow: .05em .05em .05em rgba(255, 255, 255, .7) inset,-.05em -.05em .05em rgba(0, 0, 0, .7) inset;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        text-shadow: .03em .03em .06em white,-.03em -.03em .06em black;
+        line-height: 6.5vmin;
+        box-sizing: border-box;
+        border: .1vmin solid #555555;
+        border-radius: 50%;
+}
+.operation{
+    background-color: gray;
+    opacity: 0.8;
+    color: #dddddd;
+}
+.plus{
+    background-color: gray;
+    opacity: 0.8;
+    width: 16vmin;
+    color: #dddddd;
+    border-radius:1em;
+}
+span:hover{
+    color:#00FF00;
+}
+span:active{
+    box-shadow: .05em .05em .05em rgba(0, 0, 0, .7) inset,-.05em -.05em .05em rgba(255, 255, 255, .7) inset;
+    color: red;
+}

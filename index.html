@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mystyle.css" type="text/css">
+    <title>我的计算器</title>
+</head>
+<body class="calcbackground">
+    <div class="calcboder">
+		<div class="inputboder">
+			<input id="output" class="output"> </input>
+		</div>
+		<div class="row">
+			<span onclick="OnClickClear()" class="left">C</span>
+			<span onclick="OnclickCalculate()" class="right">=</span>
+		</div>
+		<div class="row">
+			<span onclick="OnClickNumber(7)">7</span>
+			<span onclick="OnClickNumber(8)">8</span>
+			<span onclick="OnClickNumber(9)">9</span>
+			<span onclick="OnClickNumber('/')" class="operation">&divide;</span>
+		</div>
+		<div class="row">
+			<span onclick="OnClickNumber(4)">4</span>
+			<span onclick="OnClickNumber(5)">5</span>
+			<span onclick="OnClickNumber(6)">6</span>
+			<span onclick="OnClickNumber('*')" class="operation">&times;</span>
+		</div>
+		<div class="row">
+			<span onclick="OnClickNumber(1)">1</span>
+			<span onclick="OnClickNumber(2)">2</span>
+			<span onclick="OnClickNumber(3)">3</span>
+			<span onclick="OnClickNumber('-')" class="operation">-</span>
+		</div>
+		<div class="row">
+			<span onclick="OnClickNumber(0)">0</span>
+			<span onclick="OnClickNumber('.')">.</span>
+			<span onclick="OnClickNumber('+')" class="plus">+</span>
+		</div>	
+	</div>
+    <script src="myjavascript.js"></script>
+</body>
+</html>
