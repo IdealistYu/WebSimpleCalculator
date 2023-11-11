@@ -4,7 +4,7 @@ This repository contains a simple calculator web application implemented using H
 
 ## Screenshot
 
-<img src="screenshot.png" alt="screenshot" style="zoom: 33%;" />
+![screenshot](screenshot.png)
 
 ## Getting Started
 
