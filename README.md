@@ -13,3 +13,5 @@ To run the calculator locally, simply clone this repository and open the `index.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+![](https://img.shields.io/github/last-commit/IdealistYu/WebSimpleCalculator)
